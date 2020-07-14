@@ -11,9 +11,9 @@ pageEncoding="ISO-8859-1"
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>SpringHibernateSample</title>
+<title>Exemplo de Spring</title>
 </head>
 <body>
-<h1>Welcome <c:out value = "${name}"/></h1>
+<h1>Bem vindo  <c:out value = "${name}"/></h1>
 </body>
 </html>
