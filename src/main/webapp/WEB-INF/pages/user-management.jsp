@@ -23,18 +23,18 @@ uri="http://www.springframework.org/tags/form"
 
 		<form:form modelAttribute="user" action="/SpringHibernateSample/user/management/save" method="post">
 			<form:label path="username">User Name</form:label><form:input path="username" />
-			<form:label path="firstname">First Name</form:label><form:input path="firstname" />
-			<form:label path="lastname">Last Name</form:label><form:input path="lastname" />
-			<form:label path="password">Password</form:label><form:password  path="password" />
-			<button type="submit" id="save">Update User</button>
+			<form:label path="firstname">Primemiro Nome</form:label><form:input path="firstname" />
+			<form:label path="lastname">Sobrenome</form:label><form:input path="lastname" />
+			<form:label path="password">Senha</form:label><form:password  path="password" />
+			<button type="submit" id="save">Atualizar Usuario</button>
 		</form:form>
 	</div>
 	
 	<div>
 
 		<form:form modelAttribute="user" action="/SpringHibernateSample/user/management/delete" method="post">
-			<form:label path="username">User Name</form:label><form:input path="username" />
-			<button type="submit" id="delete">Delete User</button>
+			<form:label path="username">Nome de Usuario</form:label><form:input path="username" />
+			<button type="submit" id="delete">Deletar Usuario</button>
 		</form:form>
 	</div>
 
