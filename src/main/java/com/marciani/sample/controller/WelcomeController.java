@@ -17,7 +17,7 @@ public class WelcomeController {
 	
 	@RequestMapping(value = "/simple-welcome", method = RequestMethod.GET)
 	public String simpleWelcome(ModelMap model) {
-		model.addAttribute("message", "Welcome to SpringHibernateSample App");
+		model.addAttribute("message", "Bem Vindo ao SpringHibernateSample App");
 		return "simple-welcome";
 	}
 	
